@@ -16,7 +16,7 @@ collections:
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
 
-  -name: images
+  - name: images
       label: Images
       folder: images
       create: true
