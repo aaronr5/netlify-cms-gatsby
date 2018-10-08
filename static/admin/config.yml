@@ -15,3 +15,12 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+
+  -name: images
+      label: Images
+      folder: images
+      create: true
+      fields: 
+        - { name: path, label: Path }
+        - { name: tag, label: Tag, widget: select, options: ["option1", "option2"] }
+        - { name: image, widget: image }
